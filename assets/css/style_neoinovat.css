@@ -1,0 +1,169 @@
+.cor-white{
+    color: white !important; 
+}
+.cor-green{
+    color: #3CC051 !important; 
+}
+.cor-orange{
+    color:#FCB322 !important; 
+}
+.cor-red{
+    color:#ED4E2A !important; 
+}
+.cor-blue{
+    color:#57B5E3 !important; 
+}
+.cor-black{
+    color:#333333 !important;  
+}
+.bg-transparent{
+    background:transparent !important;   
+}
+
+.alert-error-red{
+    color:#ED4E2A !important; 
+    padding:2px 25px 2px 2px;
+    border: 1px dashed red;
+    margin: 2px 0px;
+    position: relative;
+    display:block;
+}
+.alert-error-red:before{
+}
+
+/*Modal grande */
+.modal.large {
+    width: 80%; /* respsonsive width */
+}
+
+/*Modal pequeno */
+.modal.small {
+    width:30%; /* respsonsive width */
+    margin-right:20%;
+}
+
+.alert-neo-cinza{
+    color:rgba(0,0,0,0.9);
+    background-color:#F0F0F0;
+    border-color:#F0F0F0;;
+}
+.alert-neo-white{
+    color:rgba(0,0,0,0.9);
+    background-color:#ffffff !important;
+    border-color:#F0F0F0;;
+}
+.google-hangount-on-air{
+    height: 50px;font-size:16px;position: relative;
+    text-decoration:none;
+    padding:14px 20px 14px 47px;
+    color:white;
+    background: url('../../../imagens/icon google.png') no-repeat;
+    border:1px solid transparent;background-size: cover;top:2px;
+    color:white !important;
+}
+
+.btnSelecionar{
+}
+
+/**
+CSS da classe de Uploads
+**/
+.neo_label_upload{
+    padding: 40px;
+    border:1px dashed #ccc;
+    text-align: center;
+}
+.neo_label_upload:before:hover{
+}
+.neo_label_upload:before{
+
+}
+.upload{
+    max-width: 100%;
+    position: relative;
+    background:url("../../../imagens/folder-upload-2.png") no-repeat;
+    background-position:center 42px;
+    background-size: 35px 35px;
+    word-break: break-all;
+    padding:0px 0px;   
+}
+.upload:hover{
+    background:url("../../../imagens/folder-upload-2.png") no-repeat;
+    background-position:center 30px;
+    background-size: 40px 40px;
+}
+
+.neo_label_filename{
+    border-bottom: 1px dashed #ccc;
+    padding:3px 0px;
+    left:0px;
+    position: absolute;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+/**
+Moda extra grande para pcs
+**/
+@media screen and (min-width: 768px) {
+    .modal-extra-large-neo{
+        position: fixed !important;
+        top:0px !important;
+        left:0px !important;
+        bottom:0px !important;
+        right: 0px !important;
+        margin:0px auto !important;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+    }
+    .moda-largo{
+        position: fixed !important;
+        top:0px !important;
+        left:0px !important;
+        bottom:0px !important;
+        right: 0px !important;
+        margin:0px auto !important;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+    }
+    .moda-largo-no-transparent{
+        position: fixed !important;
+        top:0px !important;
+        left:0px !important;
+        bottom:0px !important;
+        right: 0px !important;
+        margin:0px auto !important;
+        width: 100%;
+        height: 100%;
+        padding-bottom:50px;
+    }
+    .corpo-modal-lg{
+        left:10%;
+        position: absolute;top:0px;
+        bottom:0px;height: 60%;
+        top:50px;width: 80%;
+        left:10%; 
+        right: 10%;
+        margin:0px auto !important;
+    }
+    .modal-butons-lg{
+        top:65%;
+        position: relative;
+        width: auto;
+        margin:0px auto;
+        text-indent: 10%;
+    }
+    .visuzalizadorIframe,
+    .modal-header,
+    .modal-butons-lg{
+        background: white;
+    }
+    .visuzalizadorIframe{
+        border:0;
+        height: 100%;
+        text-align: center;
+    }
+}
